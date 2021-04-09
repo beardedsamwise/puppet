@@ -21,7 +21,7 @@ package { 'jenkins':
 file {'jenkins config':
   ensure => file,
   path   => '/etc/sysconfig/jenkins',
-  source => '/etc/puppet/manifests/jenkins',
+  source => '/etc/puppetlabs/modules/jenkins/jenkins',
 }
 
 # start jenkins
