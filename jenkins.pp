@@ -17,7 +17,6 @@ package { 'jenkins':
 }
 
 # modify config file
-
 file {'jenkins config':
   ensure => file,
   path   => '/etc/sysconfig/jenkins',
